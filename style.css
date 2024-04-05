@@ -75,16 +75,16 @@ body {
     margin-bottom: 40px;
   }
   @media screen and (max-width: 768px) {
-    .section.brand {
+    .section.presentation {
       flex-direction: column-reverse;
     }
   }
-  .section.brand .section__image {
+  .section.presentation .section__image {
     background: url(images/image-transform.jpg) no-repeat center center;
     background-size: cover;
   }
   @media screen and (max-width: 768px) {
-    .section.brand .section__image {
+    .section.presentation .section__image {
       height: 350px;
       flex: unset;
       background: url(images/image-transform.jpg) no-repeat center center, linear-gradient(41deg, #fed001 0%, #ffd602 100%);
@@ -92,23 +92,23 @@ body {
     }
   }
   @media screen and (max-width: 480px) {
-    .section.brand .section__image {
+    .section.presentation .section__image {
       background: url(images/image-transform.jpg);
       background-size: cover;
       background-position: center;
     }
   }
   @media screen and (max-width: 768px) {
-    .section.audience {
+    .section.produit {
       flex-direction: column-reverse;
     }
   }
-  .section.audience .section__image {
+  .section.produit .section__image {
     background: url(images/image-stand-out.jpg) no-repeat center center;
     background-size: cover;
   }
   @media screen and (max-width: 768px) {
-    .section.audience .section__image {
+    .section.produit .section__image {
       height: 350px;
       flex: unset;
       background: url(images/image-stand-out.jpg) no-repeat center center, conic-gradient(#fd695d, #ff7366, #fd7869, #fd8a77);
@@ -116,7 +116,7 @@ body {
     }
   }
   @media screen and (max-width: 480px) {
-    .section.audience .section__image {
+    .section.produit .section__image {
       background: url(images/image-stand-out.jpg);
       background-size: cover;
       background-position: center;
@@ -135,61 +135,61 @@ body {
   .section__image {
     flex: 1 1 50%;
   }
-  .section.fruits {
+  .section.service {
     flex-direction: column;
   }
   @media screen and (min-width: 769px) {
-    .section.fruits {
+    .section.service {
       flex-direction: row;
     }
   }
-  .section.fruits > div {
+  .section.service > div {
     text-align: center;
     box-sizing: border-box;
     padding: 20vw 9vw;
   }
   @media screen and (min-width: 769px) {
-    .section.fruits > div {
+    .section.service > div {
       padding: 450px 20px 70px 20px;
       flex-grow: 1;
       background-size: cover;
       background-position: center top;
     }
   }
-  .section.fruits h3 {
+  .section.service h3 {
     font-size: 30px;
     font-family: "Fraunces", serif;
     font-weight: 900;
     margin: 0;
   }
-  .section.fruits p {
+  .section.service p {
     margin-bottom: 0;
     max-width: 390px;
     margin: 30px auto 0 auto;
     line-height: 26px;
   }
-  .section__design {
+  .section__cerise {
     background: #91d4c6;
   }
   @media screen and (min-width: 769px) {
-    .section__design {
-      background: url(images/image-graphic-design.jpg);
+    .section__cerise {
+      background: url(images/image-cerise.jpg);
     }
   }
-  .section__design h3,
-  .section__design p {
+  .section__cerise h3,
+  .section__cerise p {
     color: #25564b;
   }
   .section__photography {
     background: #5dcbfe;
   }
   @media screen and (min-width: 769px) {
-    .section__photography {
-      background: url(images/image-photography.jpg);
+    .section__orange {
+      background: url(images/image-orange.jpg);
     }
   }
-  .section__photography h3,
-  .section__photography p {
+  .section__orange h3,
+  .section__orange p {
     color: #19536b;
   }
 
